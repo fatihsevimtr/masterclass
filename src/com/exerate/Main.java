@@ -21,10 +21,20 @@ public class Main {
 
         int intValue=5/3;
         float floatValue=5f/3f;
-        double doubleValue=5d/3d;
+        //double doubleValue=5d/3d;
+        double doubleValue=5.00/3.00;
         System.out.println(intValue);
         System.out.println(floatValue);
         System.out.println(doubleValue);
 
+        double numberOfPounds=200d;
+        double convertedKilogram=numberOfPounds*0.45359237d;
+        System.out.println("Converted Kg="+convertedKilogram);
+
+        double pi=3.1415927d;
+        double anotherNumber=3_000_000.464_040d;
+        System.out.println(pi);
+        System.out.println(anotherNumber);
+        //double preferred over float..and for more precise calculation, we must use BigDecimal class.
     }
 }
